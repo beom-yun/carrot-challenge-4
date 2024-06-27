@@ -11,6 +11,7 @@ export interface IFinancialAsset {
   ticker: string;
   companyName: string;
   numberOfShares: number;
+  exerciseOptionPrice?: number;
   sharePrice: number;
   currencyCode: string;
   exchangeRate: number;
